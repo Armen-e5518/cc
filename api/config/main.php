@@ -2,7 +2,6 @@
 
 $params = array_merge(
     require(__DIR__ . '/../../common/config/params.php'),
-    require(__DIR__ . '/../../common/config/params-local.php'),
     require(__DIR__ . '/params.php')
 //    require(__DIR__ . '/params-local.php')
 );
@@ -65,10 +64,11 @@ return [
                 ],
                 [
                     'class' => 'yii\rest\UrlRule',
-                    'controller' => 'v1/attachment',   // our country api rule,
+                    'controller' => 'v1/participations',   // our country api rule,
                     'extraPatterns' => [
-                        'GET get-attachments' => 'get-attachments',
-                        'POST add-attachment' => 'add-attachment',
+                        'GET aaa' => 'aaa',
+                        'POST add-new' => 'add-new',
+                        'PUT update' => 'upde',
                     ],
                 ],
                 [

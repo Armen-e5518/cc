@@ -27,6 +27,11 @@ use Yii;
  */
 class Participation extends \yii\db\ActiveRecord
 {
+    const NATURE = 'real';
+
+    const FLASH_IS_ACTIVE = 1;
+    const FLASH_IS_NOT_ACTIVE = 0;
+
     /**
      * {@inheritdoc}
      */

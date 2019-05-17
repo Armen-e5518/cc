@@ -5,7 +5,7 @@
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget' => 'tree'],
                 'items' => [
-                    ['label' => 'Results', 'icon' => 'list', 'url' => ['/results']],
+                    ['label' => 'Participation', 'icon' => 'list', 'url' => ['/participation']],
                 ],
             ]
         ) ?>
